@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Album Cover</title>
+    <style>
+        /* CSS for styling the album cover (optional) */
+        body {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .album-cover {
+            margin: 20px auto;
+            width: 300px;
+            border: 1px solid #ccc;
+            background-color: white;
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Album Cover -->
+    <div class="album-cover">
+        <h1>Happy</h1>
+        <p>Performed by Pharrell Williams</p>
+        <img src="https://s3.amazonaws.com/ironboard-learn/happy.jpg" alt="Happy Album Cover">
+        <p>Released: November 21, 2013</p>
+        <span>&copy; 2013 Columbia Records, a Division of Sony Music Entertainment</span>
+    </div>
+</body>
+</html>
